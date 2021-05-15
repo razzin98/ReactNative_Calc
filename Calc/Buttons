@@ -1,0 +1,217 @@
+module.exports.buttonsPortrait = [
+    [
+      {
+        title: 'AC',
+        backgroundColor: '#616160',
+      },
+      {
+        title: 'DEL',
+        backgroundColor: '#616160',
+      },
+      {
+        title: '+/-',
+        backgroundColor: '#616160',
+      },
+      {
+        title: 'รท',
+        backgroundColor: '#E8AB3A',
+      }
+    ],
+    [
+      {
+        title: '7',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '8',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '9',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: 'x',
+        backgroundColor: '#E8AB3A',
+      },
+    ],
+    [
+      {
+        title: '4',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '5',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '6',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '-',
+        backgroundColor: '#E8AB3A',
+      },
+    ],
+    [
+      {
+        title: '1',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '2',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '3',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '+',
+        backgroundColor: '#E8AB3A',
+      },
+    ],
+    [
+      {
+        title: '0',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: ',',
+        backgroundColor: '#8A8988',
+      },
+      {
+        title: '=',
+        backgroundColor: '#E8AB3A',
+      }
+    ]
+  ];
+
+module.exports.buttonsLandscape = [
+    [
+        {
+            title: '\u02B8\u221Ax',
+            backgroundColor: '#616160',
+        },
+        {
+            title: 'x!',
+            backgroundColor: '#616160',
+        },
+        {
+            title: 'AC',
+            backgroundColor: '#616160',
+        },
+        {
+            title: 'DEL',
+            backgroundColor: '#616160',
+        },
+        {
+            title: '+/-',
+            backgroundColor: '#616160',
+        },
+        {
+            title: 'รท',
+            backgroundColor: '#E8AB3A',
+        }
+    ],
+    [
+        {
+            title: 'e\u02E3',
+            backgroundColor: '#616160',
+        },
+        {
+            title: '10\u02E3',
+            backgroundColor: '#616160',
+        },
+        {
+            title: '7',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '8',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '9',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: 'x',
+            backgroundColor: '#E8AB3A',
+        },
+    ],
+    [
+        {
+            title: 'ln',
+            backgroundColor: '#616160',
+        },
+        {
+            title: 'log\u2081\u2080',
+            backgroundColor: '#616160',
+        },
+        {
+            title: '4',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '5',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '6',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '-',
+            backgroundColor: '#E8AB3A',
+        },
+    ],
+    [
+        {
+            title: '%',
+            backgroundColor: '#616160',
+        },
+        {
+            title: 'x\u00B2',
+            backgroundColor: '#616160',
+        },
+        {
+            title: '1',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '2',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '3',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '+',
+            backgroundColor: '#E8AB3A',
+        },
+    ],
+    [
+        {
+            title: 'ฯ€',
+            backgroundColor: '#616160',
+        },
+        {
+            title: 'x\u00B3',
+            backgroundColor: '#616160',
+        },
+        {
+            title: '0',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: ',',
+            backgroundColor: '#8A8988',
+        },
+        {
+            title: '=',
+            backgroundColor: '#E8AB3A',
+        }
+    ]
+];

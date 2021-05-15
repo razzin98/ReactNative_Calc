@@ -1,0 +1,41 @@
+import React, { Component } from 'react';
+import {
+  StyleSheet,
+  Text,
+  Dimensions,
+  TouchableOpacity
+} from 'react-native';
+
+export default class InputNumberButton extends Component {
+  
+  render() {
+    const {title, background, clickButton} = this.props;
+    let flexButton = title === '0'  ? 2 : 1;
+    let currentBorderWidth = title === '0' ? 1 : 0;     // dodanie 2 brakujacych pikseli szerokosci w szerszym przycisku
+
+    return(
+      <TouchableOpacity 
+        style={{
+          margin: 1,
+          borderWidth : currentBorderWidth,
+          borderColor: '#8A8988',
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor : background,
+          flex: flexButton
+        }}
+        onPress={() => clickButton(title)}>
+        
+        <Text style={styles.textStyle}>{title}</Text>
+      </TouchableOpacity>
+    );
+  }
+}
+  
+
+const styles = StyleSheet.create({
+  textStyle: {
+      color: 'white',
+      fontSize: 35
+  }
+});
